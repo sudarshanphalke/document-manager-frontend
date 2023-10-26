@@ -1,0 +1,37 @@
+body, p, h1, h2, h3, h4, b, strong, a, .fa, td, th {
+  color: #005F6A; /* Set the default font color to #005F6A */
+}
+ 
+.tab-inbox {
+  padding: 0px;
+    color: #fff;
+    border-bottom: 3px solid #ffe000;
+    cursor: pointer;
+    text-align: left;
+}
+ 
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  color: #005F6A;
+  background-color: #fff;
+  border: none;
+}
+ 
+input[type=checkbox], input[type=radio]{
+  margin-right:10px;
+}
+ 
+ 
+ 
+/* Remove the default underlining of the active tab *
+ 
+/* Style the active tab's link color */
+.tab-inbox.active a {
+  color: #fff;
+  text-decoration: none;
+}
+ 
+/* Style the active tab's link color when hovered */
+.tab-inbox.active a:hover {
+  color: #fff;
+  text-decoration: none;
+}

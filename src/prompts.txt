@@ -1,0 +1,3 @@
+//create fetch api function to get data from api
+
+  //write function base64 to blob
